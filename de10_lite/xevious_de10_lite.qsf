@@ -483,3 +483,5 @@ set_global_assignment -name VHDL_FILE ../rtl_dar/audio_i2s.vhd
 
 
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+
+set_global_assignment -name CDF_FILE ../../../../../../../Documents/Coding/Github/xevious_de10lite/de10_lite/Chain1.cdf
